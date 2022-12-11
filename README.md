@@ -47,9 +47,12 @@
 git clone git@github.com:AlxShvalev/fabrique.git
 ```
 
+Перейдите в директорию с сервисом
+`cd fabrique/`
+
 Переименуйте файл `.env_example` в `.env` и заполните его корректными переменными окружения
 
-Перейдите в директорию infra и выполните там команду
+Перейдите в директорию infra `cd infra/` и выполните там команду
 ```bash
 sudo docker-compose up -d --build
 ```
