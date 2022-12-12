@@ -75,6 +75,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'fabrique.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = ('http://localhost', 'https://*.127.0.0.1')
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
